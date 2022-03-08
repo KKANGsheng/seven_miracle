@@ -1,0 +1,46 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.logo{
+    width:20px;
+    height:15px;
+    color:white;
+}
+
+.logos{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height:70px;
+    background:orangered;
+    color:white;
+    border-radius:5px;
+}
+
+.place{
+    display:flex;
+    align-items: center;
+    margin:80px;
+}
+
+.coverimg{
+    margin-right:30px;
+    object-fit: cover;
+    width:210px;
+    height:210px;
+}
+
+a{
+    color:#00A0C6; 
+}
+
+.title,.date{
+    margin:10px 0;
+}
+
+.location{
+    margin-right:10px;
+}
